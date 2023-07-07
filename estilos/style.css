@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0c1c2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #16263F;
+    height: 700px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.imageeth{
+    background-image: url("../imagens/image-equilibrium.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 350px;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 15px;
+}
+
+.imageeth:hover{
+    background-image: url("../imagens/icon-view.svg");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 350px;
+    background-color: #05f2da41;
+    cursor: pointer;
+}
+
+
+.content{
+    margin: auto;
+    margin: 30px 25px 0px 25px;
+    height: 300px;
+}
+
+.content>h1{
+    color: white;
+    font-size: 1.8em;
+}
+
+.content>h1:hover{
+    color: #05F2DB;
+    cursor: pointer;
+}
+
+.content>p{
+    color: #86A8D6;
+    font-size: 1.2em;
+    font-weight: lighter;
+    margin-top: 20px;
+    line-height: 34px;
+}
+
+.volue{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.eth{
+    color: #05F2DB;
+    font-size: 1.3em;
+}
+
+.eth>img{
+    margin-right: 15px;
+}
+
+.days{
+    color: #86A8D6;
+    font-size: 1.2em;
+    display: flex;
+}
+
+.days>img{
+    margin-right: 15px;
+    width: 1.1em;
+}
+
+.creation{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 30px 20px;
+    padding-top: 20px;
+    border-top: 1px solid #86A8D6;
+}
+
+.creation>div{
+    height: 50px;
+    width: 50px;
+    background-image: url("../imagens/image-avatar.png");
+    background-size: cover;
+    border: 2px solid #86A8D6;
+    border-radius: 50%;
+}
+
+.creation>p{
+    color: #86A8D6;
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+.creation>p>a{
+    color: white;
+}
+
+.creation>p>a:hover{
+    color: #05F2DB;
+    cursor: pointer;
+}
