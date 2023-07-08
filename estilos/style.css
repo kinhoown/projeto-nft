@@ -37,7 +37,7 @@ body{
     margin-top: 25px;
     border-radius: 15px;
 }
-/*
+
 .imageeth:hover{
     background-image: url("../imagens/icon-view.svg");
     background-size: 10%;
@@ -48,7 +48,6 @@ body{
     background-color: #05f2da41;
     cursor: pointer;
 }
-*/
 
 .content{
     margin: auto;
